@@ -24,9 +24,9 @@
       <!-- <figure class="picture"> -->
       <figure id="picture" class="picture">
         <div class="picture-shadow"></div>
-        <img id="pictureImage" class="picture-image" src="images/fajar.jpg" srcset="images/fajar@4x.jpg 1x,
-images/fajar@3x.jpg 2x,
-images/fajar@2x.jpg 3x, images/fajar.jpg 4x" alt="Portrait of Fajar Ghifari" width="320" height="320">
+        <img id="pictureImage" class="picture-image" src="images/fajar.jpg" srcset="images/fajar@3.jpg 1x,
+images/fajar@2x.jpg 2x,
+images/fajar.jpg 3x" alt="Portrait of Fajar Ghifari" width="320" height="320">
       </figure>
     </aside>
     <main class="about">
@@ -93,6 +93,17 @@ images/fajar@2x.jpg 3x, images/fajar.jpg 4x" alt="Portrait of Fajar Ghifari" wid
       }
     </style>
   </noscript>
+
+  <!-- wait till ready -->
+  <script>
+    document.body.className += "js-loading";
+
+    window.addEventListener('load', showPage, false);
+
+    function showPage() {
+      document.body.className = document.body.className.replace("js-loading", "");
+    }
+  </script>
 
 </body>
 
