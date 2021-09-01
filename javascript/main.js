@@ -10,6 +10,7 @@ function loadImage(id, targetId) {
   } else {
     imageToLoad = el.currentSrc;
   }
+
   if (imageToLoad) {
     var img = new Image();
     img.src = imageToLoad;
