@@ -8,7 +8,7 @@ This book just for review my knowlage about HTML,CSS.
 # Installation
 1. Fork/Clone/Download this repo
 
-    `git clone https://github.com/fajaraldev/fajaraldev.github.io.git`
+    `git clone https://github.com/fajaraldev/learn-css`
 
 ## Updating
 Run `git pull` in learn-css directory
