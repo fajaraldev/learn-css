@@ -1,9 +1,8 @@
-# fajaraldev.github.io
-I have been created a simple and responsive portfolio for my github page.
+This book just for review my knowlage about HTML,CSS. 
 
 # Screenshot
 <p align="center">
-<img align="center" src=".img/screenshot.jpg" width="700">
+<img align="center" src=".img/screenshot.jpg" width="500">
 </p>
 
 # Installation
@@ -12,7 +11,7 @@ I have been created a simple and responsive portfolio for my github page.
     `git clone https://github.com/fajaraldev/fajaraldev.github.io.git`
 
 ## Updating
-Run `git pull` in fajaraldev.github.io directory
+Run `git pull` in learn-css directory
 
 # Contributing
 You can propose a feature request opening an issue or a pull request.
